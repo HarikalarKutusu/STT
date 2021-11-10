@@ -1,4 +1,4 @@
-import binary from 'node-pre-gyp';
+import binary from '@mapbox/node-pre-gyp';
 import path from 'path';
 
 // 'lib', 'binding', 'v0.1.1', ['node', 'v' + process.versions.modules, process.platform, process.arch].join('-'), 'stt-bindings.node')
