@@ -1961,6 +1961,8 @@ jobs:
         with:
           nodejs_versions: "12.7.0 13.0.0 14.0.0 15.0.0 16.0.0 17.0.1"
           electronjs_versions: "12.0.0 13.0.0 14.0.0 15.0.0"
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
       - uses: actions/upload-artifact@v2
         with:
           name: "nodewrapper-tflite-Windows_amd64.tar.gz"
